@@ -22,7 +22,6 @@ func match(value string, size int) (rune, error) {
 			return rune(value[i]), nil
 		}
 	}
-
 	return 0, errors.New("can't find match")
 }
 
